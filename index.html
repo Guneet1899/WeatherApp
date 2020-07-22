@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+
+</head>
+
+<body>
+
+
+
+    <main class="mycontainer" id="home">
+        <div class="container headings">
+            <h1 class="text-center pt-5">WEATHERINFO</h1>
+            <h2 class="text-center mt-3 sub"><img src="svg/sun.svg" alt="sun" srcset="" width="80px"> Check Weather
+                of Any City in the World <img src=" svg/cloud.svg" alt="cloud" srcset="" width="80px"></h2>
+        </div>
+        <br><br>
+        <div class="weathercontainer card container card text-white">
+            <form class="py-3">
+                <input type="text" class="mx-auto form-control text-center" placeholder="Enter City Name" id="city"
+                    autocomplete="off" style="width: 80%" ;>
+                <button type="button" autofocus class="btn btn-primary text-center mt-3" id="button"><span
+                        class="fas fa-search"></span>&nbsp;&nbsp;&nbsp; CHECK</button>
+            </form>
+            <p class="temp d-inline text-dark font-weight-bold mt-3">Temperature&nbsp;&nbsp;:&nbsp;&nbsp; <img
+                    class="icon" src="" class="d-inline" width="40px"><span id="temp"></span>
+            </p>
+        </div>
+    </main>
+    <footer id="footer">
+        <div class="container py-3">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <h4>Made with&nbsp;&nbsp;<i class="fas fa-mug-hot"></i>&nbsp;&nbsp; by Abhilakshya</h4>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-12 social">
+                    <h2><a href="https://www.instagram.com/abhi___sr4" target="_blank"><span
+                                class="fab fa-instagram"></span></a><a href="https://github.com/abhilakshyadobhal"
+                            target="_blank"><span class="fab fa-github"></span></a></h2>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- javascript files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+
+</body>
+
+</html>

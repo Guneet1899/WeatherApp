@@ -1,0 +1,134 @@
+*{
+    font-family: 'Fjalla One', sans-serif;
+}
+.mycontainer{
+    background-color: Blue;
+    height: 100vh;
+}
+
+.weathercontainer
+{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: black;
+}
+
+.headings 
+{
+    color: #f7444e;
+}
+.card
+{
+    width: 25%;
+    border-radius: 20px; 
+    height: 30%;
+    background-color: #FFFFFF;
+}
+
+#footer {
+    background: red;
+    /* Dark color/Footer color, can be changed via colors.css */
+    color: #fff;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+footer h2 {
+    display: inline-block;
+    color: #fff;
+}
+
+footer h4 {
+    color: #fff;
+}
+
+.social span {
+    font-size: 28px;
+    margin: 12px 15px 0;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+
+    .headings h2{
+    font-size: 16px;
+    }
+
+    .headings img {
+        width: 40px;
+    }
+
+    .card{
+        width: 60%;
+    }
+
+    .card p{
+        font-size: 12px;
+    }
+
+    #footer h4{
+        font-size: 14px;
+    }
+
+    .social span{
+        font-size: 15px;
+        margin: 6px 10px ;
+    }
+}
+
+@media(min-width: 500px) and (max-width:600px){
+    .headings h2{
+    font-size: 20px;
+    }
+
+    .headings img {
+        width: 50px;
+    }
+
+    .card{
+        width: 50%;
+    }
+
+    .card p{
+        font-size: 14px;
+    }
+
+        #footer h4{
+        font-size: 16px;
+    }
+
+    .social span{
+        font-size: 18px;
+        margin: 6px 10px ;
+    }
+}
+
+@media(min-width: 600px) and (max-width:768px){
+    .headings h2{
+    font-size: 22px;
+    }
+
+    .headings img {
+        width: 60px;
+    }
+
+    .card{
+        width: 40%;
+    }
+
+    .card p{
+        font-size: 14px;
+    }
+
+        #footer h4{
+        font-size: 16px;
+    }
+
+    .social span{
+        font-size: 18px;
+        margin: 6px 10px ;
+    }
+}
